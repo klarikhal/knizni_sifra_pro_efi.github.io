@@ -1,0 +1,22 @@
+collections:
+  uvody: 
+    output: true
+  
+  robert_fulghum:
+   output: true
+ 
+  petra_soukupova: 
+    output: true
+  
+  harry_potter:
+   output: true
+
+  evzen_onegin:
+   output: true
+
+  bonus:
+   output: true
+
+sass:
+    load_paths: 
+        - _sass
