@@ -20,3 +20,4 @@ collections:
 sass:
     load_paths: 
         - _sass
+markdown: kramdown
