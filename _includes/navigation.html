@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        <ul class="nav-item">
           {% for item in site.data.navigation %}
           <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
         {% endfor %}
-        </li>
+        </ul>
       </ul>
     </div>
   </div>
