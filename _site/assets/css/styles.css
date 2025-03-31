@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 body {
   color: rgb(0, 0, 0);
-  max-width: 1080px;
   border-style: solid;
   margin: 0 auto !important;
   float: none !important;
@@ -122,6 +121,14 @@ button {
   background-color: #4c2521 !important; /* Change to your desired background color */
   border-color: #4c2521 !important; /* Change the border color */
   color: #ffffff; /* Change the text color */
+}
+
+@media (max-width: 850px) {
+  .column-4 {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
