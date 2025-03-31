@@ -82,7 +82,7 @@ h1 {
 
 /* Custom Navbar Styling */
 .navbar {
-  background-color: #0f0f10 !important; /* Custom orange color */
+  background-color: #213e4c !important;
   font-family: "Arial", sans-serif;
   font-size: 1.1rem;
 }
@@ -103,6 +103,23 @@ h1 {
 
 .navbar-dark .navbar-toggler-icon {
   background-color: #ffffff; /* White hamburger icon */
+}
+
+button {
+  display: block;
+  margin-bottom: 10px; /* Add spacing between buttons */
+}
+
+.btn-info {
+  background-color: #213e4c; /* Change to your desired background color */
+  border-color: #213e4c; /* Change the border color */
+  color: #ffffff; /* Change the text color */
+}
+
+.btn-info:hover {
+  background-color: #415a66; /* Change the hover background color */
+  border-color: #415a66; /* Change the hover border color */
+  color: #ffffff; /* Keep the text color on hover */
 }
 
 /*# sourceMappingURL=styles.css.map */

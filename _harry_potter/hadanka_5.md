@@ -14,5 +14,4 @@ Jaké je latinské motto Bradavic? Každé slovo začni velkým písmenem.<input
 
 <a href="{{ site.baseurl }}/uvody/hp_uvod.html" class="btn btn-info">Zpět</a>
 
- <?div>
 <script src="{{ site.baseurl }}//assets/js/hadanky_hp.js"></script> 
