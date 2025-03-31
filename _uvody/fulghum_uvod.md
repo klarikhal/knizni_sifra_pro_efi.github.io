@@ -11,7 +11,7 @@ order_number: 2
 	<body>
 		<div class="uvod">
 			<h1>{{ page.title }}</h1>
-			<ul class="list-group list-group-flush">
+			<ul class="list-group list-group-flush  mb-4">
 				{% for hadanka in site.robert_fulghum %}
 				<li class="list-group-item">
 					<a href="{{ site.baseurl }}/{{ hadanka.url }}">{{ hadanka.title }}</a>
@@ -19,9 +19,7 @@ order_number: 2
 				</li>
 				{% endfor %}
 			</ul>
-		</div>
-		<div>
-		<a href="{{ site.baseurl }}" class="btn btn-info">Zpět</a>
+			 <a href="{{ site.baseurl }}" class="btn btn-info">Zpět</a>
 		</div>
 	</body>
 </html>
