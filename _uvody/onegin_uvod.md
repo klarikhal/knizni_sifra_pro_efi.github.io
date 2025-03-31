@@ -11,9 +11,9 @@ order_number: 4
 	<body>
 		<div class="uvod">
 			<h1>Hádanky Evžen Oněgin</h1>
-			<ul>
+			<ul class="list-group list-group-flush  mb-4">
 				{% for hadanka in site.evzen_onegin %}
-				<li>
+				<li class="list-group-item">
 					<a href="{{ site.baseurl }}/{{ hadanka.url }}">{{ hadanka.title }}</a>
 					<!-- {{ post.excerpt }} -->
 				</li>
