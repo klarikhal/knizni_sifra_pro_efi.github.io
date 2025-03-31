@@ -82,6 +82,7 @@ h1 {
 
 /* Custom Navbar Styling */
 .navbar {
+  background-color: #0f0f10 !important; /* Custom orange color */
   font-family: "Arial", sans-serif;
   font-size: 1.1rem;
 }
