@@ -80,4 +80,28 @@ h1 {
   color: black;
 }
 
+/* Custom Navbar Styling */
+.navbar {
+  font-family: "Arial", sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ffffff !important; /* Ensure links are white */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffdd57 !important; /* Highlight on hover */
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ffffff; /* White hamburger icon */
+}
+
 /*# sourceMappingURL=styles.css.map */
