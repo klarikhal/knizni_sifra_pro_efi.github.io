@@ -20,6 +20,8 @@ order_number: 2
 				{% endfor %}
 			</ul>
 		</div>
+		<div>
 		<a href="{{ site.baseurl }}" class="btn btn-info">Zpět</a>
+		</div>
 	</body>
 </html>
