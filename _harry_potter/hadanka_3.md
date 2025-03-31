@@ -15,7 +15,7 @@ Kde je pohřben "skutečný" Tom Riddle? <input type="text" name="fname">
 
 <h3>Nápovědy</h3>
 
-<button onclick="help1()"class="btn btn-light"> Nápověda 1</button>
+<button onclick="help1()" class="btn btn-light"> Nápověda 1</button>
 <p id="help1" style="display:none">Dvě slova</p>
 
 <button onclick="help2()" class="btn btn-light">Nápověda 2</button>
