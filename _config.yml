@@ -21,3 +21,5 @@ sass:
     load_paths: 
         - _sass
 markdown: kramdown
+
+baseurl: "/knizni_sifra_pro_efi.github.io" 
