@@ -9,6 +9,8 @@ body {
   border-style: solid;
 	margin: 0 auto !important; 
 	float: none !important; 
+  padding: 10px; /* Add padding around the content */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
 }
 
 h1{
@@ -65,12 +67,12 @@ h1{
   height: auto; /* Maintain aspect ratio */
 }
 
-.tiles{
-  text-align:center;
+.tiles {
+  text-align: center;
   display: grid;
   justify-content: center;
-  grid-auto-flow: column;
-  gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Add spacing between items */
   margin-bottom: 50%;
 }
 
@@ -135,4 +137,17 @@ button {
   background-color: #4c2521 !important; /* Change to your desired background color */
   border-color: #4c2521 !important; /* Change the border color */
   color: #ffffff; /* Change the text color */
+}
+
+
+@media (max-width: 768px) {
+  .column-4 {
+    width: 100%; /* Make columns take up the full width */
+    margin: 10px auto; /* Center the columns and add spacing */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .tiles {
+    grid-template-columns: 1fr; /* Stack items vertically on small screens */
+  }
 }
