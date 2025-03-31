@@ -5,7 +5,7 @@ $primary-color: rgb(0, 0, 0);
 
 body {
   color: $primary-color;
-  max-width: 1080px; 
+  //max-width: 1080px; 
   border-style: solid;
 	margin: 0 auto !important; 
 	float: none !important; 
@@ -130,3 +130,10 @@ button {
   border-color: #4c2521 !important; /* Change the border color */
   color: #ffffff; /* Change the text color */
 }
+
+@media (max-width: 850px) {
+  .column-4 {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+  }
