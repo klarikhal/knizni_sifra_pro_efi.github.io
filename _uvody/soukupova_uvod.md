@@ -14,12 +14,12 @@ order_number: 4
 			<ul>
 				{% for hadanka in site.petra_soukupova %}
 				<li>
-					<a href="{{ hadanka.url }}">{{ hadanka.title }}</a>
+					<a href="{{ site.baseurl }}{{ hadanka.url }}">{{ hadanka.title }}</a>
 					<!-- {{ post.excerpt }} -->
 				</li>
 				{% endfor %}
 			</ul>
-			<a href="/">Zpět</a>
+			<a href="{{ site.baseurl }}/">Zpět</a>
 		</div>
 	</body>
 </html>

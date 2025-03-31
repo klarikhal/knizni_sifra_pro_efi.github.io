@@ -12,7 +12,7 @@ Jak v češtině zní Siriusova přezdívka? <input type="text" name="fname">
 </form> 
 </p>
 
- <a href="/uvody/hp_uvod.html">Zpět</a>
+ <a href="{{ site.baseurl }}/uvody/hp_uvod.html">Zpět</a>
 
  </div>
 <script src="/assets/js/hadanky_hp.js"></script> 

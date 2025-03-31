@@ -11,6 +11,6 @@ title: Třetí hádanka
 	<input type="submit" value="Submit">
 </form>
 </p>
-<a href="/uvody/soukupova_uvod.html">Zpět</a>
+<a href="{{ site.baseurl }}/uvody/soukupova_uvod.html">Zpět</a>
 </div>
 <script src="/assets/js/hadanky_ps.js"></script>

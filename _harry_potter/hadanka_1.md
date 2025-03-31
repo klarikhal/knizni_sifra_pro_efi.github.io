@@ -12,7 +12,7 @@ Uveď jedno křestní jméno Brumbála kromě Albuse: <input type="text" name="f
 </form> 
 </p>
 
- <a href="/uvody/hp_uvod.html">Zpět</a>
+ <a href="{{ site.baseurl }}/uvody/hp_uvod.html">Zpět</a>
 </div>
  
 <script src="/assets/js/hadanky_hp.js"></script> 
