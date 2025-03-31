@@ -10,7 +10,7 @@ title: První hádanka
 	<input type="submit" value="Submit">
 </form>
 </p>
-<a href="{{ site.baseurl }}/uvody/soukupova_uvod.html">Zpět</a>
+<a href="{{ site.baseurl }}//uvody/soukupova_uvod.html">Zpět</a>
 
 </div>
-<script src="{{ site.baseurl }}/assets/js/hadanky_ps.js"></script>
+<script src="{{ site.baseurl }}//assets/js/hadanky_ps.js"></script>
