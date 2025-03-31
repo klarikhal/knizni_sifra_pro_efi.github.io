@@ -60,6 +60,11 @@ h1{
   text-align: center;
 }
 
+.project-1, .project-2, .project-3, .project-4, .project-5 {
+  max-width: 100%; /* Prevent images from exceeding the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .tiles{
   text-align:center;
   display: grid;
@@ -108,9 +113,6 @@ h1{
   color: #ffdd57 !important; /* Highlight on hover */
 }
 
-.navbar-dark .navbar-toggler-icon {
-  background-color: #ffffff; /* White hamburger icon */
-}
 
 button {
   display: block;
