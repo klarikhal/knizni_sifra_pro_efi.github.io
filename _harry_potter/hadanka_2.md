@@ -12,7 +12,7 @@ Kdo doručil Ronovi huláka? <input type="text" name="fname">
 </form> 
 </p>
 
- <a href="{{ site.baseurl }}//uvody/hp_uvod.html">Zpět</a>
+<a href="{{ site.baseurl }}/uvody/hp_uvod.html" class="btn btn-info">Zpět</a>
 </div>
  
 <script src="{{ site.baseurl }}//assets/js/hadanky_hp.js"></script> 
