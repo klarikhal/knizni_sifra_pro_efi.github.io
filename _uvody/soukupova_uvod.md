@@ -19,7 +19,7 @@ order_number: 4
 				</li>
 				{% endfor %}
 			</ul>
-			<a href="{{ site.baseurl }}//">Zpět</a>
+			 <a href="{{ site.baseurl }}" class="btn btn-info">Zpět</a>
 		</div>
 	</body>
 </html>
