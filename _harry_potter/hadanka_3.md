@@ -22,7 +22,7 @@ Kde je pohřben "skutečný" Tom Riddle? <input type="text" name="fname">
 <p id="help2" style="display:none">Hřbitov ve Skotsku</p>
 
 
-<a href="{{ site.baseurl }}/uvody/hp_uvod.html" class="btn btn-info">Zpět</a>
+<button onclick="window.location.href='{{ site.baseurl }}/uvody/hp_uvod.html'" class="btn btn-info">Zpět</button>
 
- </div>
+</div>
 <script src="{{ site.baseurl }}//assets/js/hadanky_hp.js"></script> 
