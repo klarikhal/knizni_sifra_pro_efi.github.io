@@ -11,9 +11,9 @@ order_number: 2
 	<body>
 		<div class="uvod">
 			<h1>{{ page.title }}</h1>
-			<ul>
+			<ul class="list-group list-group-flush">
 				{% for hadanka in site.robert_fulghum %}
-				<li>
+				<li class="list-group-item">
 					<a href="{{ site.baseurl }}/{{ hadanka.url }}">{{ hadanka.title }}</a>
 					<!-- {{ post.excerpt }} -->
 				</li>
