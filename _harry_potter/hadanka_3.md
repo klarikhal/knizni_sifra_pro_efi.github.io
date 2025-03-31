@@ -27,4 +27,4 @@ Kde je pohřben "skutečný" Tom Riddle? <input type="text" name="fname">
  <a href="{{ site.baseurl }}/uvody/hp_uvod.html">Zpět</a>
 
  </div>
-<script src="/assets/js/hadanky_hp.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/hadanky_hp.js"></script> 

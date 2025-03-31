@@ -17,4 +17,4 @@ Jaké je Chandlerovo prostřední jméno? <input type="text" name="fname">
  <a href="{{ site.baseurl }}/">Zpět</a>
 
  </div>
-<script src="/assets/js/bonus.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/bonus.js"></script> 

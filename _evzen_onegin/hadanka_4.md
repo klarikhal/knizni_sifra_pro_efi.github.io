@@ -12,4 +12,4 @@ title: Čtvrtá hádanka
 </p>
 <a href="{{ site.baseurl }}/uvody/onegin_uvod.html">Zpět</a>
 </div>
-<script src="/assets/js/hadanky_eo.js"></script>
+<script src="{{ site.baseurl }}/assets/js/hadanky_eo.js"></script>

@@ -13,4 +13,4 @@ title: První hádanka
 <a href="{{ site.baseurl }}/uvody/soukupova_uvod.html">Zpět</a>
 
 </div>
-<script src="/assets/js/hadanky_ps.js"></script>
+<script src="{{ site.baseurl }}/assets/js/hadanky_ps.js"></script>

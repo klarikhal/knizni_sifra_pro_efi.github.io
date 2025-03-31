@@ -15,4 +15,4 @@ Na kterém evropském ostrově tráví Fulghum rád čas? <input type="text" nam
  <a href="{{ site.baseurl }}/uvody/fulghum_uvod.html">Zpět</a>
 </div>
  
-<script src="/assets/js/hadanky_rf.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/hadanky_rf.js"></script> 

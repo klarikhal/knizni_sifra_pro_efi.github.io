@@ -15,4 +15,4 @@ Ve kterém roce se Ti podařilo Fulghuma rozesmát? <input type="text" name="fna
  <a href="{{ site.baseurl }}/uvody/fulghum_uvod.html">Zpět</a>
 
  </div>
-<script src="/assets/js/hadanky_rf.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/hadanky_rf.js"></script> 
