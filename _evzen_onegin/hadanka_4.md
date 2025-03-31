@@ -10,6 +10,6 @@ title: Čtvrtá hádanka
 	<input type="submit" value="Submit">
 </form>
 </p>
-<a href="/uvody/onegin_uvod.html">Zpět</a>
+<a href="{{ site.baseurl }}/uvody/onegin_uvod.html">Zpět</a>
 </div>
 <script src="/assets/js/hadanky_eo.js"></script>

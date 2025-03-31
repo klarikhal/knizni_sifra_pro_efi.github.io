@@ -12,7 +12,7 @@ Kdo napsal hudbu k opeře? <input type="text" name="fname">
 </form> 
 </p>
 
- <a href="/uvody/onegin_uvod.html">Zpět</a>
+ <a href="{{ site.baseurl }}/uvody/onegin_uvod.html">Zpět</a>
 </div>
  
 <script src="/assets/js/hadanky_eo.js"></script> 
