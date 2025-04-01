@@ -11,6 +11,9 @@ body {
   border-style: solid;
 	margin: 0 auto !important; 
 	float: none !important; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -121,8 +124,10 @@ h3 {
 
 .footer {
   background-color: #213E4Cff !important; 
+  color: #ffffff !important;
   font-family: 'Lora';
   font-size: 1.1rem;
+  margin-top: auto;
 }
 
 button {
