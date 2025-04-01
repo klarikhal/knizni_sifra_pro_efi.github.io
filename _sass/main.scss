@@ -1,5 +1,7 @@
 /* Custom Styles */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 $font-stack: Helvetica, sans-serif;
 $primary-color: rgb(0, 0, 0);
 
@@ -12,6 +14,10 @@ body {
 }
 
 h1{
+  font-family: 'Amatic SC', cursive;
+}
+
+h3{
   font-family: 'Amatic SC', cursive;
 }
 
@@ -72,6 +78,7 @@ h1{
 .uvod{
   margin-bottom: 20%;
   text-align: center;
+  font-family: 'Lora';
 }
 
 .link_text1{
