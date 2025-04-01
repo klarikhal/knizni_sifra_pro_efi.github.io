@@ -12,8 +12,8 @@ Kde je pohřben "skutečný" Tom Riddle? <input type="text" name="fname">
 </form> 
 </p>
 
-
-<h3>Nápovědy</h3>
+<div>
+<h2>Nápovědy</h2>
 
 <div>
 <button onclick="help1()" class="btn btn-light"> Nápověda 1</button>
@@ -27,6 +27,7 @@ Kde je pohřben "skutečný" Tom Riddle? <input type="text" name="fname">
 
 <div>
 <button onclick="window.location.href='{{ site.baseurl }}/uvody/hp_uvod.html'" class="btn btn-info">Zpět</button>
+</div>
 </div>
 </div>
 <script src="{{ site.baseurl }}//assets/js/hadanky_hp.js"></script> 
