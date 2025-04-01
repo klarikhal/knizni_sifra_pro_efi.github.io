@@ -94,7 +94,13 @@ h3 {
 
 .link_text2{
   color: white;
-  -webkit-text-stroke: 1px black;
+  font-family: 'Lora';
+  //-webkit-text-stroke: 1px black;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
  }
 
  .link_text3{
