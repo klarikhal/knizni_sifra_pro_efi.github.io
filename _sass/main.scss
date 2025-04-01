@@ -13,15 +13,15 @@ body {
 	float: none !important; 
 }
 
-h1{
+h1 {
   font-family: 'Amatic SC', cursive;
 }
 
-h2{
+h2 {
   font-family: 'Amatic SC', cursive;
 }
 
-h3{
+h3 {
   font-family: 'Amatic SC', cursive;
 }
 
@@ -147,5 +147,32 @@ button {
     width: 100%;
     margin: 10px auto;
     height: auto;
+  }
+  .tiles{
+    text-align:center;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 4px;
+    margin-bottom: 50%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 260px) {
+  .column-4 {
+    width: 100%; /* Make each tile take up the full width */
+    margin: 10px auto; /* Center each tile */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .tiles {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr; /* Stack items vertically */
+    gap: 10px; /* Add spacing between items */
+    margin-bottom: 50%; /* Keep bottom margin */
+    margin-right: 0; /* Remove extra right margin */
   }
 }
