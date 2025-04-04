@@ -29,15 +29,15 @@ h3 {
 }
 
 .title-link {
-    text-decoration: none; /* Removes underline */
-    color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the color from the parent element */
 }
 
 .title-link:hover,
 .title-link:focus,
 .title-link:active {
-    text-decoration: none; /* Ensures no underline on hover or focus */
-    color: inherit; /* Maintains original color on interaction */
+  text-decoration: none; /* Ensures no underline on hover or focus */
+  color: inherit; /* Maintains original color on interaction */
 }
 
 
