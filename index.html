@@ -2,50 +2,39 @@
 layout: default
 title: Knižní šifra pro Efi
 ---
-<!---  <h2>Rozcestník</h2>
-	<ul>
-	  {% assign ordered_uvody = site.uvody | sort:"order_number" %}
-	  {% for uvod in ordered_uvody %}
-	  <li>
-	    <a href="{{ site.baseurl }}/{{ uvod.url | relative_url }}">{{ uvod.title }}</a>
-	  </li>
-	  {% endfor %}
-	</ul>
-	-->
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
-	</head>
-	<body>
-<div class="tiles">
-	<a href="{{ site.baseurl }}//uvody/onegin_uvod.html" class="link_text2">
-		<div class="column-4 project-1">
-			EVŽEN <br> ONĚGIN
-		</div>
-	</a>
-	<a href="{{ site.baseurl }}//uvody/hp_uvod.html" class="link_text2">
-		<div class="column-4 project-2">
-			HARRY <br>POTTER
-		</div>
-	</a>
-	<a href="{{ site.baseurl }}//uvody/fulghum_uvod.html" class="link_text2">
-		<div class="column-4 project-3">
-			ROBERT <br>FULGHUM
-		</div>
-	</a>
-	<a href="{{ site.baseurl }}//uvody/soukupova_uvod.html" class="link_text2">
-		<div class="column-4 project-4">
-			PETRA <br> SOUKUPOVÁ
-		</div>
-	</a>
-	<a href="{{ site.baseurl }}//uvody/bonus_uvod.html" class="link_text2">
-		<div class="column-4 project-5">
-			BONUS
-		</div>
-	</a>
-</div>
-
-<div style="height:0px; clear:both;"></div>
-</body>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>{{ page.title }}</title>
+   </head>
+   <body>
+      <div class="tiles">
+         <a href="{{ site.baseurl }}//uvody/onegin_uvod.html" class="link_text2">
+            <div class="column-4 project-1">
+               EVŽEN <br> ONĚGIN
+            </div>
+         </a>
+         <a href="{{ site.baseurl }}//uvody/hp_uvod.html" class="link_text2">
+            <div class="column-4 project-2">
+               HARRY <br>POTTER
+            </div>
+         </a>
+         <a href="{{ site.baseurl }}//uvody/fulghum_uvod.html" class="link_text2">
+            <div class="column-4 project-3">
+               ROBERT <br>FULGHUM
+            </div>
+         </a>
+         <a href="{{ site.baseurl }}//uvody/soukupova_uvod.html" class="link_text2">
+            <div class="column-4 project-4">
+               PETRA <br> SOUKUPOVÁ
+            </div>
+         </a>
+         <a href="{{ site.baseurl }}//uvody/bonus_uvod.html" class="link_text2">
+            <div class="column-4 project-5">
+               BONUS
+            </div>
+         </a>
+      </div>
+      <div style="height:0px; clear:both;"></div>
+   </body>
 </html>
