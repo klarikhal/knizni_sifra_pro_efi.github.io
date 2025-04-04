@@ -6,9 +6,6 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: rgb(0, 0, 0);
 
 body {
-  color: $primary-color;
-  //max-width: 1080px; 
-  border-style: solid;
 	margin: 0 auto !important; 
 	float: none !important; 
   min-height: 100vh;
@@ -170,7 +167,11 @@ button {
   color: #ffffff; /* Change the text color */
 }
 
-@media (max-width: 850px) {
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5); /* Make the border of the toggler white with some transparency */
+  color: white;
+}
+@media (max-width: 1000px) {
   .column-4 {
     width: 90%;
     margin: 10px auto;
@@ -185,6 +186,13 @@ button {
     margin-bottom: 50%;
     margin-right: 4%;
   }
+
+  .navbar {
+      width: 100%; /* Ensure the navbar stretches across the screen */
+      margin: 0; /* Remove any extra margins */
+      border-radius: 0; /* Remove rounded corners, if any */
+    }
+ 
 }
 
 @media (max-width: 260px) {
