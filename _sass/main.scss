@@ -182,6 +182,11 @@ button {
     margin-bottom: 50%;
     margin-right: 4%;
   }
+  .navbar {
+    width: 100%; /* Ensure the navbar stretches across the screen */
+    margin: 0; /* Remove any extra margins */
+    border-radius: 0; /* Remove rounded corners, if any */
+  }
 }
 
 @media (max-width: 260px) {
