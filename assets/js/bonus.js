@@ -1,7 +1,7 @@
 function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
   if (x=="Muriel") {
-    alert("Správně, máš hotovo!");
+    alert("Správně, otevři poslední obálku!");
     return false;
   }
   else{

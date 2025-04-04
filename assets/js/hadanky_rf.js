@@ -60,7 +60,7 @@ function validateForm3() {
   function validateForm4() {
     let x = document.forms["myForm"]["fname"].value;
     if (x=="2017") {
-      alert("Správně, otevři si druhou obálku!!");
+      alert("Správně, otevři si třetí obálku!!");
       return false;
     }
     else{
@@ -68,15 +68,3 @@ function validateForm3() {
       return false;
     }
     } 
-
-    function validateForm5() {
-      let x = document.forms["myForm"]["fname"].value;
-      if (x=="Draco Dormiens Nunquam Titillandus") {
-        alert("Správně, otevři si první obálku!");
-        return false;
-      }
-      else{
-        alert("Špatně, zkus to znovu.");
-        return false;
-      }
-      } 

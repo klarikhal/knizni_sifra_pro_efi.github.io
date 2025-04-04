@@ -37,7 +37,7 @@ function validateForm3() {
   function validateForm4() {
     let x = document.forms["myForm"]["fname"].value;
     if (x=="Duel") {
-      alert("Správně, otevři si druhou obálku!!");
+      alert("Správně, otevři si první obálku!!");
       return false;
     }
     else{
