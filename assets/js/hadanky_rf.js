@@ -60,7 +60,7 @@ function validateForm3() {
   function validateForm4() {
     let x = document.forms["myForm"]["fname"].value;
     if (x=="2017") {
-      alert("Správně, otevři si třetí obálku!!");
+      alert("Správně, otevři si balíček číslo 3!");
       return false;
     }
     else{

@@ -37,7 +37,7 @@ function validateForm3() {
   function validateForm4() {
     let x = document.forms["myForm"]["fname"].value;
     if (x.toLowerCase()=="Kosmo".toLowerCase()) {
-      alert("Správně, otevři si čtvrtou obálku!!");
+      alert("Správně, otevři si obálku s číslem 4!!");
       return false;
     }
     else{

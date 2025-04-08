@@ -75,7 +75,7 @@ function validateForm3() {
     function validateForm5() {
       let x = document.forms["myForm"]["fname"].value;
       if (x=="Draco Dormiens Nunquam Titillandus") {
-        alert("Správně, otevři si druhou obálku!");
+        alert("Správně, otevři si obálku s číslem 2!");
         return false;
       }
       else{
