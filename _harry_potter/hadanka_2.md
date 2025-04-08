@@ -7,7 +7,7 @@ title: Druhá hádanka
 
 <p>
  <form name="myForm" onsubmit="return validateForm2()" method="post">
-Kdo doručil Ronovi huláka? <input type="text" name="fname">
+Kdo doručil Ronovi huláka do Bradavic? <input type="text" name="fname">
 <input type="submit" value="Submit">
 </form> 
 </p>

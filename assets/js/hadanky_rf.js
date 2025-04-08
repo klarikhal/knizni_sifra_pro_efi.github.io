@@ -22,8 +22,8 @@ function help2() {
 
 //HADANKY
 function validateForm1() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x=="Jára Cimrman") {
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
+  if (x=="jára cimrman") {
     alert("Správně, pokračuj k další hádance!");
     return false;
   }
@@ -34,8 +34,8 @@ function validateForm1() {
 } 
 
 function validateForm2() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x=="Kréta") {
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
+  if (x=="kréta") {
     alert("Správně, pokračuj k další hádance!");
     return false;
   }
@@ -46,8 +46,8 @@ function validateForm2() {
   } 
 
 function validateForm3() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x=="Každý den odpoledne si zdřímni.") {
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
+  if (x=="každý den odpoledne si zdřímni.") {
     alert("Správně, pokračuj k další hádance!");
     return false;
   }
@@ -58,7 +58,7 @@ function validateForm3() {
   } 
 
   function validateForm4() {
-    let x = document.forms["myForm"]["fname"].value;
+    let x = document.forms["myForm"]["fname"].value.toLowerCase();
     if (x=="2017") {
       alert("Správně, otevři si balíček číslo 3!");
       return false;

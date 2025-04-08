@@ -1,5 +1,5 @@
 
-jmena = ["Percival","Wulfric","Brian"]
+jmena = ["percival","wulfric","brian"]
 
 function showHadanka() {
   alert("Here's your hadanka!");
@@ -25,7 +25,7 @@ function help2() {
 
 //HADANKY
 function validateForm1() {
-  let x = document.forms["myForm"]["fname"].value;
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
   if (jmena.includes(x)) {
     alert("Správně, pokračuj k další hádance!");
     return false;
@@ -37,8 +37,8 @@ function validateForm1() {
 } 
 
 function validateForm2() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x=="Errol") {
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
+  if (x=="errol") {
     alert("Správně, pokračuj k další hádance!");
     return false;
   }
@@ -49,8 +49,8 @@ function validateForm2() {
   } 
 
 function validateForm3() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x=="Greyfriars Kirkyard") {
+  let x = document.forms["myForm"]["fname"].value.toLowerCase();
+  if (x=="greyfriars kirkyard") {
     alert("Správně, pokračuj k další hádance!");
     return false;
   }
@@ -61,8 +61,8 @@ function validateForm3() {
   } 
 
   function validateForm4() {
-    let x = document.forms["myForm"]["fname"].value;
-    if (x=="Tichošlápek") {
+    let x = document.forms["myForm"]["fname"].value.toLowerCase();
+    if (x=="tichošlápek") {
       alert("Správně, pokračuj k další hádance!");
       return false;
     }
@@ -73,8 +73,8 @@ function validateForm3() {
     } 
 
     function validateForm5() {
-      let x = document.forms["myForm"]["fname"].value;
-      if (x=="Draco Dormiens Nunquam Titillandus") {
+      let x = document.forms["myForm"]["fname"].value.toLowerCase();
+      if (x=="draco dormiens nunquam titillandus") {
         alert("Správně, otevři si obálku s číslem 2!");
         return false;
       }

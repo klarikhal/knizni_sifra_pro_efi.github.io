@@ -7,7 +7,7 @@ title: Pátá hádanka
 
 <p>
  <form name="myForm" onsubmit="return validateForm5()" method="post">
-Jaké je latinské motto Bradavic? Každé slovo začni velkým písmenem.<input type="text" name="fname">
+Jaké je latinské motto Bradavic? <input type="text" name="fname">
 <input type="submit" value="Submit">
 </form> 
 </p>
